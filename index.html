@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Images Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/tajawal.css">
+</head>
+<body>
+    <!-- Animated background effect -->
+    <div class="background-effects">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Header: Main title showing the project name -->
+    <div class="header">
+        <div class="logo">
+            <i class="fas fa-robot"></i>
+        </div>
+        <h1 style="font-size: 2.2rem; margin-top: 5px;">AI Images Generator</h1>
+    </div>
+    
+    <!-- Images Container: 3 boxes to display generated images -->
+    <div class="images">
+        <div class="image-container"></div>
+        <div class="image-container"></div>
+        <div class="image-container"></div>
+    </div>
+    
+    <!-- Input Container: Contains "Generate" button and text input for prompt -->
+    <div class="input-container">
+        <button id="generateBtn"><i class="fas fa-magic"></i> Generate</button>
+        <div class="input-wrapper">
+            <i class="fas fa-lightbulb input-icon"></i>
+            <input type="text" id="inp" placeholder="Enter your prompt here...">
+        </div>
+    </div>
+
+    <!-- Progress Bar: Appears during image generation -->
+    <div class="progress-container" id="progressContainer" style="display: none;">
+        <div class="progress-label">Generating...</div>
+        <div class="progress-bar" id="progressBar">
+            <div class="fill"></div>
+        </div>
+    </div>
+
+    <!-- Project information -->
+    <div class="info-section">
+        <div class="info-card">
+            <div class="info-icon"><i class="fas fa-info-circle"></i></div>
+            <div class="info-content">
+                <h3>About the Project</h3>
+                <p>AI Image Generator creates creative images from text descriptions in any language.</p>
+                <p>The AI Image Generator uses artificial intelligence to create creative images from text descriptions in any language.</p>
+                <p>This project is part of BCA 308 studies at MMDU University.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer - Esmail -->
+    <footer>
+        <p>Project by: Esmail Albater</p>
+        <p>AI credits : https://pollinations.ai/</p>
+
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
